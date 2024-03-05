@@ -244,6 +244,12 @@ body {
   position: relative;
 }
 
+.card:hover > .card__img {
+  transform: scale(1.01);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
 .card--wide {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -263,6 +269,7 @@ body {
   border-radius: 12px;
   margin-bottom: 8px;
   object-fit: cover;
+  transition: all 0.2s ease;
 }
 
 .card__img--h100 {
